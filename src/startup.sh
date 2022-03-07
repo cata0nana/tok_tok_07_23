@@ -1,8 +1,14 @@
 
 #!/bin/bash
+pip3 install device_detector
+sed -i 's/"$HERE\/chrome"/"$HERE\/chrome" --disable-gpu --disable-software-rasterizer --disable-dev-shm-usage --no-sandbox/g' /opt/google/chrome/google-chrome
+dbus-uuidgen > /var/lib/dbus/machine-id
+
+
 echo $(curl -s ipinfo.io | jq -r '.timezone') > /root/test707
 
 cd /root/
+
 git clone https://github.com/GH0STAV0/SDA_ALL.git
 
 cd /root/SDA_ALL/
