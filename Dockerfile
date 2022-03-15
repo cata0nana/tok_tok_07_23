@@ -95,7 +95,7 @@ EXPOSE $VNC_PORT $NO_VNC_PORT
 
 
 
-#CMD ["/lib/systemd/systemd"]
+
 ENTRYPOINT [ "/usr/bin/tini", "--", "/dockerstartup/startup.sh" ]
 
 
