@@ -4,7 +4,7 @@ export USER="root"
 ### every exit != 0 fails the script
 set -e
 
-pip3 install selenium-stealth
+pip3 install selenium-stealth mysql-connector-python
 
 touch /root/0nord_pass
 echo -e "r9ALwcyVetNrvq9xHSuNuQGg\nDTSfshiZ98S6Y6iPx99iKnY8" > /root/0nord_pass
