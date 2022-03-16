@@ -1,6 +1,6 @@
 
 #!/bin/bash
-pip3 install device_detector
+# pip3 install device_detector
 sed -i 's/"$HERE\/chrome"/"$HERE\/chrome" --disable-gpu --disable-software-rasterizer --disable-dev-shm-usage --no-sandbox/g' /opt/google/chrome/google-chrome
 dbus-uuidgen > /var/lib/dbus/machine-id
 
