@@ -1,5 +1,6 @@
 #!/bin/bash
 export USER="root"
+rm -rf /root/EXTRAT/fire*
 
 ### every exit != 0 fails the script
 set -e
