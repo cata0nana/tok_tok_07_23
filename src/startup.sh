@@ -9,13 +9,13 @@ echo $(curl -s ipinfo.io | jq -r '.timezone') > /root/test707
 
 cd /root/
 
-git clone https://github.com/GH0STAV0/SDA_ALL.git
+# git clone https://github.com/GH0STAV0/SDA_ALL.git
 
-cd /root/SDA_ALL/
-rm -rf site_5
-git reset --hard
-git pull && ls
-cp /root/0nord_pass /root/SDA_ALL/site_5/0nord_pass
+# cd /root/SDA_ALL/
+# rm -rf site_5
+# git reset --hard
+# git pull && ls
+
 # cd /root/SDA_ALL/
 # cd /root/SDA_ALL/48_firefox/
 # git reset --hard
@@ -132,8 +132,8 @@ case $host_name in
 esac
 
 
-cat /root/SDA_ALL/site_5/nord_pass.txt
-cat /root/go
+# cat /root/SDA_ALL/site_5/nord_pass.txt
+# cat /root/go
 #echo "666666666666666666"
 
 ###########################################
