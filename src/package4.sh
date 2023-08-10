@@ -57,6 +57,9 @@ echo "Installing ttf-wqy-zenhei"
 echo "Installing  xfce "
 
         #uuid-runtime
+mkdir /root/EXTRAT/firefox-115.0/
+wget https://ftp.mozilla.org/pub/firefox/releases/115.0/linux-x86_64/en-US/firefox-115.0.tar.bz2 && tar -xf firefox-115.0.tar.bz2 -C /root/EXTRAT/firefox-115.0/
+
 
 
 
