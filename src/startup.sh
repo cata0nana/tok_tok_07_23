@@ -137,5 +137,5 @@ esac
 #echo "666666666666666666"
 
 ###########################################
-/usr/bin/supervisord -n
+/usr/bin/supervisord -n &
 # 48_firefox/
